@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> list of names </title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <marquee onmouseover="this.stop()"onmouseleave="this.start()" >
+        <h1>List Of Names </h1> </marquee>  
+        <div>
+            <span>1</span>
+            <input type="text" placeholder="Name Of Student" id="Student_1">
+            <span>2</span>
+            <input type="text" placeholder="Name Of Student" id="Student_2">
+            <span>3</span>
+            <input type="text" placeholder="Name Of Student" id="Student_3">
+            <span>4</span>
+            <input type="text" placeholder="Name Of Student" id="Student_4">
+            
+        </div>
+        <button onclick="Submit()" id="sub">Submit</button>
+        <br>
+        <br>
+        <div id="names"></div>
+        <br>
+        <button onclick="sorting()" id="sor">sorting</button>
+        <script src="main.js"></script>
+    </body>
+</html>
